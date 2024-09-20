@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paradigma de Programación Funcional</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <ul class="menu">
+            <li><a href="#inicio">Inicio</a></li> <!-- Corregido el ID -->
+            <li class="submenu">
+                <a href="#introduccion">Introducción</a> <!-- Ya estaba bien -->
+            </li>
+            <li><a href="#declarativa-vs-imperativa">Programación Declarativa</a></li> <!-- Corregido el ID -->
+            <li><a href="#funcional-vs-oop">Programación Funcional</a></li> <!-- Corregido el ID -->
+            <li><a href="#contacto">Contacto</a></li> <!-- Faltaba la sección -->
+        </ul>
+    </div>
+    
+    <div class="content">
+        <header id="inicio"> <!-- Agregado el ID de inicio -->
+            <h1>Blog sobre Programación Funcional</h1>
+        </header>
+
+        <section id="introduccion">
+            <h2>Introducción a la Programación Funcional</h2>
+            <p>La programación funcional es un paradigma de programación que trata la computación como la evaluación de funciones matemáticas, enfatizando la inmutabilidad y la ausencia de efectos secundarios. Se centra en funciones puras, es decir, funciones que siempre producen el mismo resultado con las mismas entradas y no alteran el estado global.</p>
+            <p>Este paradigma promueve el uso de funciones como ciudadanos de primera clase, lo que significa que las funciones pueden ser pasadas como argumentos, retornadas por otras funciones y asignadas a variables. Además, la programación funcional es declarativa, lo que significa que se enfoca en el "qué" se quiere lograr en lugar del "cómo" lograrlo, en contraste con la programación imperativa.</p>
+            <img src="https://cocosolution.com/cms/uploads/image_25.png" alt="Imagen de programación funcional" class="img-ref">
+        </section>
+
+        <section id="declarativa-vs-imperativa">
+            <h2>Programación Declarativa vs Imperativa</h2>
+            <p>La <strong>programación declarativa</strong> es un paradigma en el cual los desarrolladores se enfocan en el "qué" debe hacerse, sin especificar los pasos concretos para lograrlo. Los lenguajes SQL y HTML son ejemplos comunes. Por otro lado, la <strong>programación imperativa</strong> se basa en describir el "cómo" se debe realizar una tarea, especificando cada paso del proceso. Ejemplos de lenguajes imperativos incluyen C, Java y Python (cuando se usa en un estilo tradicional).</p>
+            <h3>Características Claves</h3>
+            <ul>
+                <li><strong>Declarativa:</strong> Centrada en el resultado final, menos propensa a errores humanos.</li>
+                <li><strong>Imperativa:</strong> Mayor control sobre los detalles del flujo, pero más complejo para mantener.</li>
+            </ul>
+            <table>
+                <thead>
+                    <tr>
+                        <th> Declarativa</th>
+                        <th>Imperativa</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Describe el resultado</td>
+                        <td>Describe los pasos</td>
+                    </tr>
+                    <tr>
+                        <td>Menos control sobre cómo se ejecuta</td>
+                        <td>Control total sobre el flujo</td>
+                    </tr>
+                    <tr>
+                        <td>Mayor legibilidad y simplicidad</td>
+                        <td>Mayor complejidad y control</td>
+                    </tr>
+                    <tr>
+                        <td>Ejemplos: SQL, HTML, XAML</td>
+                        <td>Ejemplos: C, Java, Python</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="funcional-vs-oop">
+            <h2>Programación Funcional vs Orientada a Objetos</h2>
+            <p>La <strong>programación funcional</strong> trata a las funciones como ciudadanos de primera clase y enfatiza la inmutabilidad y la ausencia de efectos secundarios. Cada función toma entradas y produce una salida sin alterar su entorno. En contraste, la <strong>programación orientada a objetos (OOP)</strong> se basa en objetos que encapsulan tanto el estado (datos) como el comportamiento (métodos), y las interacciones entre ellos a través de mensajes (llamadas a métodos).</p>
+            <h3>Diferencias Clave</h3>
+            <ul>
+                <li><strong>Funcional:</strong> Las funciones son puras, es decir, no dependen del estado global o cambian su entorno.</li>
+                <li><strong>Orientada a Objetos:</strong> Los datos y comportamientos están encapsulados en objetos, y el estado del programa puede cambiar a medida que los objetos interactúan entre sí.</li>
+            </ul>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Programación Funcional</th>
+                        <th>Programación Orientada a Objetos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Funciones puras e inmutabilidad</td>
+                        <td>Encapsulación de estado y comportamiento en objetos</td>
+                    </tr>
+                    <tr>
+                        <td>Se enfoca en "qué hacer" con los datos</td>
+                        <td>Se enfoca en "quién" es responsable de los datos</td>
+                    </tr>
+                    <tr>
+                        <td>Ejemplos: Haskell, Lisp</td>
+                        <td>Ejemplos: Java, C++</td>
+                    </tr>
+                    <tr>
+                        <td>Fácil de paralelizar y depurar</td>
+                        <td>Mejor en modelado de objetos del mundo real</td>
+                    </tr>
+                </tbody>
+            </table>
+            <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/0*zWRa_KsrQ2zcxtlT.png" alt="Imagen comparativa entre POO y Funcional" class="img-ref">
+        </section>
+
+        <footer id="contacto"> <!-- Agregado el ID de contacto -->
+            <p>Creado por: [jose hector cruz sarabia ] - © 2024</p>
+        </footer>
+    </div>
+</body>
+</html>
